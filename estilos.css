@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: bisque;
+}
+
+header h1 {
+    text-align: center;
+    color: palevioletred;
+    font-size: 43px;
+
+}
+
+.menu {
+
+    background-color: pink;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.menu ul li :hover {
+    background-color: papayawhip;
+}
+
+.menu ul ul {
+
+    display: none;
+    position: absolute;
+
+
+
+}
+
+.menu ul li:hover>ul {
+    display: block;
+}
+
+.letraGrande {
+    font-size: 10px;
+}
+
+.colorPink {
+    color: rgb(216, 58, 111);
+    font-size: larger;
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+}
+
+.centrito {
+    text-align: center;
+}
+
+.centritoDos {
+    align-items: center;
+
+}
+
+
+.textoCentro {
+    display: flex;
+    align-items: center;
+    display: block;
+
+}
+
+.imaGenfondo {
+    min-height: 100px;
+    min-width: 300px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+}
+
+.dereChos {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.dereChos1 {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.subtItulo {
+    color: palevioletred;
+    text-align: center;
+    font-size: 43px;
+
+}
+
+/*font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} */
+
+.galeRia {
+
+    color: palevioletred;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+.torTas {
+    color: palevioletred;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+.imgLogo {
+
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    opacity: 1;
+
+}
+
+.imgProd {
+
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    opacity: 1;
+
+}
+
+.textoCentrado {
+    text-align: center;
+    font-size: larger;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.imgLogoCen {
+    text-align: center;
+}
+
+.imagenTorta {
+
+    text-align: center;
+}
+
+.foto1 {
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+    text-align: center;
+
+
+
+
+}
+
+.madre {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+    /*estilos de fotos*/
+}
+
+.foTo {
+
+    width: 300px;
+    margin: 10px;
+    background-color: antiquewhite;
+    justify-content: center;
+
+}
+
+.tortaProd {
+    color: palevioletred;
+    padding: 15px;
+    margin: 15px;
+}
+
+.imagen {
+    width: 300px;
+}
+
+.tamañoTorta {
+    height: auto;
+}
+
+.insta {
+    text-align: center;
+}
+
+.cursIva {
+    color: aqua;
+    font-family: cursive;
+    size: 15px;
+}
+
+.flexFoto {
+
+    width: 200px;
+
+    height: 200px;
+    margin: 10px;
+    display: flex;
+
+
+}
+
+.end {
+
+    display: flex;
+
+
+}
+
+.endDos {
+    text-align: end;
+}
+
+.redesFoot {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+.redesFoot a i {
+    padding: 5px;
+    color: #FF6FB5;
+    justify-content: center;
+
+}
+
+.fa-facebook-square:hover {
+    /* color: rgb(24, 110, 215); */
+    color: #fff;
+}
+
+.fa-instagram-square:hover {
+    /* color: rgba(215, 24, 174, 0.634); */
+    color: #fff;
+}
+
+.fa-whatsapp-square:hover {
+    /* color: #0df053; */
+    color: #fff;
+}
+
+.fa-square-envelope:hover {
+    /* color: rgb(24, 110, 215); */
+    color: #fff;
+}
+
+
+.menuTodos {
+    -ms-flex-align: center;
+}
+
+.form1 {
+    display: flexbox;
+    flex-direction: column;
+    margin: 15px 0px 0px 0px;
+
+
+
+}
+
+.footer {
+    /* margin: 15px;
+    padding: 15px; */
+    text-align: center;
+    opacity: 0.8;
+    margin-top: auto;
+    width: 100%;
+    height: 60px;
+    /* Height of the footer */
+    background: rgb(118, 198, 214);
+
+
+}
+
+.fotoDiv {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+
+
+}
+
+.foto3 {
+    justify-content: center;
+}
+
+.foto32 {
+    display: flex;
+    height: 450px;
+    width: 450px;
+}
+
+.foto {
+    display: flex;
+}
+
+.acercaDer {
+    text-align: left;
+}
+
+.fotoDiv2 {
+    text-align: center;
+    height: auto;
+}
+
+.foto4 {
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+
+.fotoIzq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.botonUno {
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+.fuente {
+    color: palevioletred;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* .textoUno{
+    -ms-flex-align:;
+} */
+.contenedor {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion"
+        "titu titu titu"
+        "logo logo logo"
+        "card card1 card2"
+        "pie pie pie";
+
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+
+}
+
+.conteneDos {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion"
+        "titu titu titu"
+        "pic1 . textpic1"
+        "textpic2 . pic2"
+        "pic3 . textpic3"
+        "textpic4 . pic4"
+        "pic5 . textpic5"
+        "textpic6 . pic6"
+        "pie pie pie";
+    grid-template-columns: 48% 2% 48%;
+    grid-template-rows: 9fr;
+
+}
+
+/* .conteneTres{
+    display: grid;
+    grid-template-areas:"titu titu titu"            
+                        "pic1 . textpic1"
+                        "textpic2 . pic2"
+                        "pic3 . textpic3"
+                        "textpic4 . pic4"
+                        "pic5 . textpic5"
+                        "textpic6 . pic6"
+                        "pie pie pie";
+    grid-template-columns: 48% 2% 48%;
+    
+} */
+
+.main1 {
+    grid-area: main1;
+}
+
+.navegacion {
+    grid-area: navegacion;
+}
+
+
+.titu {
+    grid-area: titu;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.card {
+    grid-area: card;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.pie {
+    grid-area: pie;
+}
+
+.insta {
+    grid-area: insta;
+}
+
+.reserv {
+    grid-area: reserv;
+}
+
+.titulo {
+    grid-area: titulo;
+}
+
+.pic1 {
+    grid-area: pic1;
+}
+
+.pic2 {
+    grid-area: pic2;
+}
+
+.pic3 {
+    grid-area: pic3;
+}
+
+.pic4 {
+    grid-area: pic4;
+}
+
+.pic5 {
+    grid-area: pic5;
+}
+
+.pic6 {
+    grid-area: pic6;
+}
+
+.textpic1 {
+    grid-area: textpic1;
+}
+
+.textpic2 {
+    grid-area: textpic2;
+}
+
+.textpic3 {
+    grid-area: textpic3;
+}
+
+.textpic4 {
+    grid-area: textpic4;
+}
+
+.textpic5 {
+    grid-area: textpic5;
+}
+
+.textpic6 {
+    grid-area: textpic6;
+}
+
+p {
+    font-size: 1rem;
+    font-family: cursive;
+    color: rgb(223, 136, 177);
+    text-align: center;
+    /* justify-content: right;
+   margin: 30px;
+   padding: 30px; */
+
+}
+
+.bel {
+    font-size: 1rem;
+    font-family: cursive;
+
+    text-align: center;
+    justify-content: right;
+    margin: 30px;
+    padding: 30px;
+    color: rgb(216, 58, 111);
+    font-size: larger;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: cursive;
+    color: rgb(240, 234, 205);
+    text-align: center;
+    flex-direction: row;
+
+}
+
+.cake {
+    font-family: cursive;
+
+    font-size: 60px;
+    text-decoration: none;
+    color: palevioletred;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: none;
+
+}
+
+.galeFot {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: larger;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+@media (max-width:992px) {
+    body {
+        font-size: 10px;
+    }
+
+    .contenedor {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "logo logo logo"
+            "card  . card1 "
+            ". card2 ."
+            "pie pie pie";
+    }
+
+    .conteneDos {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "pic1 . textpic1"
+            "textpic2 . pic2"
+            "pic3 . textpic3"
+            "textpic4 . pic4"
+            "pic5 . textpic5"
+            "textpic6 . pic6"
+            "pie pie pie";
+    }
+}
+
+@media (max-width:480px) {
+    .contenedor {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "logo logo logo"
+            "card  card card"
+            "card1 card1 card1"
+            "card2 card2 card2"
+            "pie pie pie";
+    }
+
+    .conteneDos {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "pic1 textpic1 textpic1"
+            "textpic2 textpic2 pic2"
+            "pic3 textpic3 textpic3"
+            "textpic4 textpic4 pic4"
+            "pic5  textpic5 textpic5"
+            "textpic6 textpic6 pic6"
+            "pie pie pie";
+    }
+
+    aside {
+        font-size: 8px;
+    }
+
+}
