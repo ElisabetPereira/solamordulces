@@ -105,6 +105,11 @@ nav ul li a {
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.dereChoss{
+    display: flex;
+    justify-content: center;
 }
 
 .dereChos1 {
@@ -140,6 +145,7 @@ nav ul li a {
     text-align: center;
     font-size: 60px;
     text-decoration: none;
+    
 
 }
 
