@@ -386,6 +386,19 @@ nav ul li a {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif
 }
+.cadrBack{
+    background-color: transparent;
+}
+.cardBack1{
+    margin:  0px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
+}
+
+.cardFlex{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* .textoUno{
     -ms-flex-align:;
@@ -395,11 +408,11 @@ nav ul li a {
     grid-template-areas: "navegacion navegacion navegacion"
         "titu titu titu"
         "logo logo logo"
-        "card card1 card2"
+        "cardi card1 card2"
         "pie pie pie";
 
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 5fr;
 
 }
 
@@ -450,8 +463,8 @@ nav ul li a {
     grid-area: logo;
 }
 
-.card {
-    grid-area: card;
+.cardi {
+    grid-area: cardi;
 }
 
 .card1 {
@@ -611,7 +624,7 @@ h3 {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
             "logo logo logo"
-            "card  card card"
+            "cardi  cardi cardi"
             "card1 card1 card1"
             "card2 card2 card2"
             "pie pie pie";
