@@ -393,26 +393,63 @@ nav ul li a {
     margin:  0px 0px 0px 20px;
     padding: 0px 0px 0px 20px;
 }
-
+.carPad{
+    margin:  0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
+}
 .cardFlex{
     display: flex;
     justify-content: center;
 }
+/* .carruPe{
+    width: 300px;
+    height: 200px;
+} */
 
 
 /* .textoUno{
     -ms-flex-align:;
 } */
+
+/*.logoAnimac {
+    width: 30%;
+   
+}
+.girar{
+   
+    animation-name:sol-girar;
+     animation-duration: 18s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+
+}
+@keyframes sol-girar{
+    from{
+        transform: escale(1);
+
+    }
+    to{
+        transform: escale(1.7);
+    }
+}*/
+
+
+
+
+
+
+
 .contenedor {
     display: grid;
     grid-template-areas: "navegacion navegacion navegacion"
         "titu titu titu"
         "logo logo logo"
+        ". car ."
         "cardi card1 card2"
         "pie pie pie";
 
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 5fr;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 6fr;
 
 }
 
@@ -457,6 +494,10 @@ nav ul li a {
 
 .titu {
     grid-area: titu;
+}
+
+.car{
+    grid-area: car;
 }
 
 .logo {
@@ -601,7 +642,8 @@ h3 {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
             "logo logo logo"
-            "card  . card1 "
+            ". car ."
+            "cardi  . card1 "
             ". card2 ."
             "pie pie pie";
     }
@@ -624,6 +666,7 @@ h3 {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
             "logo logo logo"
+            "car car car"
             "cardi  cardi cardi"
             "card1 card1 card1"
             "card2 card2 card2"

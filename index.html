@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sol amor dulces</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/estilos.css">
+    
 
 </head>
 
@@ -15,7 +17,13 @@
 <body>
 
 
+
+
     <img src="img/3.jpg" alt="" class="imaGenfondo" media="(min-widths: 1000px)">
+
+
+
+
 
 
     <div class="contenedor">
@@ -44,7 +52,7 @@
         <div class="titu">
 
             <div>
-                <h1 class="torTas ">Cake desinger</h1>
+                <h1 class="animate__animated animate__bounce torTas ">Cake desinger</h1>
 
             </div>
             <div>
@@ -54,12 +62,45 @@
                 <p class="torTas">Macarons</p>
             </div>
         </div>
-        <div class="imgLogoCen logo">
-            <img class=" imgLogo " src="img/MARCA ANITA.png" alt="imagen de tienda online">
+
+        <div class="imgLogoCen logo logoAnimac">
+            <img class=" imgLogo " src="img/MARCA ANITA.png" alt=""class="girar">
         </div>
 
-        <div class="cardBack1 cardFlex">
-            <div class="card cardi textoCentro cadrBack " style="width: 18rem;">
+        <div id="carouselExampleIndicators " class="carousel slide car carPad" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carruseldos.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carruseltres.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carruseluno.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="cardBack1 cardFlex cardi">
+            <div class="card textoCentro cadrBack " style="width: 18rem;">
                 <img src="img/tortabelmes.jpg" class="card-img-top galeFot botonUno" alt="...">
                 <div class="card-body ">
                     <h5 class="card-title">Pasteles</h5>
@@ -69,8 +110,8 @@
                 </div>
             </div>
         </div>
-        <div class="cardBack1 cardFlex">
-            <div class="card card1 textoCentro cadrBack" style="width: 18rem;">
+        <div class="cardBack1 cardFlex card1">
+            <div class="card textoCentro cadrBack" style="width: 18rem;">
                 <img src="img/mesadukce.jpeg" class="card-img-top galeFot botonUno" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Mesas dulces</h5>
@@ -81,16 +122,16 @@
             </div>
         </div>
 
-        <div class="cardBack1 cardFlex">
-        <div class="card card2 textoCentro cadrBack" style="width: 18rem;">
-            <img src="img/box.jpeg" class="card-img-top galeFot botonUno" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Box dulces</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-danger">Go somewhere</a>
+        <div class="cardBack1 cardFlex card2">
+            <div class="card textoCentro cadrBack" style="width: 18rem;">
+                <img src="img/box.jpeg" class="card-img-top galeFot botonUno" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Box dulces</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <a href="#" class="btn btn-danger">Go somewhere</a>
+                </div>
             </div>
-        </div>
         </div>
 
         <!-- <div class="card textoCentro">
