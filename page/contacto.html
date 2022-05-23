@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
+
 </head>
 
 <body>
@@ -32,7 +34,7 @@
             </ul>
         </nav>
     </header>
-    <form>
+    <!-- <form>
         <fieldset>
             <legend>Envia tus datos</legend>
             <div>
@@ -60,18 +62,58 @@
             </div>
         </fieldset>
     </form>
-    <div>
-        <footer>
+    <div> -->
+        <section>
+            <div class="conteneCinco">
+            <form class="row g-3 posit">
+                <div class="col-md-4">
+                  <label for="validationDefault01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefault02" class="form-label"> Apellido</label>
+                  <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefaultUsername" class="form-label">E-mail</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationDefault03" class="form-label">Ciudad</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
 
-        </footer>
-    </div>
-    <div>
+                <div class="col-md-6">
+                    <label for="validationDefault03" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                  </div>
+                
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentario</label>
+                  </div>
+               
+              
+                <div class="col-12">
+                  <button class="btn btn-rose" type="submit">Enviar</button >
+                </div>
+              </form>
+            </div>
+
+              
+
+
+        </section>
+   
         <footer>
             <h3 class="letraGrande">
                 Todos los derechos reservdos
             </h3>
         </footer>
-    </div>
+ <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

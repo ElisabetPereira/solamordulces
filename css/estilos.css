@@ -102,7 +102,13 @@ header h1 {
 nav ul li a {
 
     text-decoration: none;
+    font-family: "Dancing Script",cursive;
 }
+
+
+   
+ 
+
 
 .dereChos {
     font-size: 10px;
@@ -276,6 +282,14 @@ nav ul li a {
     color: #FF6FB5;
     justify-content: center;
 
+}
+
+.posit{
+    position: relative;
+}
+
+.naviHome{
+    text-decoration:solid;
 }
 
 .fa-facebook-square:hover {
@@ -748,13 +762,20 @@ h3 {
     .conteneDos {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
-            "pic1 textpic1 textpic1"
-            "textpic2 textpic2 pic2"
-            "pic3 textpic3 textpic3"
-            "textpic4 textpic4 pic4"
-            "pic5  textpic5 textpic5"
-            "textpic6 textpic6 pic6"
+            "pic1 pic1 pic1"
+            "textpic1 textpic1 textpic1"
+            "pic2 pic2 pic2"
+            "textpic2 textpic2 textpic2"
+            "pic3 pic3 pic3"
+            "textpic3 textpic3 textpic3"
+            "pic4 pic4 pic4"
+            "textpic4 textpic4 textpic4"
+            "pic5 pic5 pic5"
+            "textpic5 textpic5 textpic5"
+            "pic6 pic6 pic6"
+            "textpic6 textpic6 textpic6"
             "pie pie pie";
+            grid-template-rows: auto;
     }
 
     aside {
