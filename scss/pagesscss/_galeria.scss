@@ -1,0 +1,169 @@
+.imaGenfondo {
+    min-height: 100px;
+    min-width: 300px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.conteneDos {
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion"
+        "titu titu titu"
+        "pic1 . textpic1"
+        "textpic2 . pic2"
+        "pic3 . textpic3"
+        "textpic4 . pic4"
+        "pic5 . textpic5"
+        "textpic6 . pic6"
+        "pie pie pie";
+    grid-template-columns: 48% 2% 48%;
+    grid-template-rows: 9fr;
+
+}
+
+.titu {
+    grid-area: titu;
+}.navegacion {
+    grid-area: navegacion;
+}
+.pic1 {
+    grid-area: pic1;
+}
+
+.pic2 {
+    grid-area: pic2;
+}
+
+.pic3 {
+    grid-area: pic3;
+}
+
+.pic4 {
+    grid-area: pic4;
+}
+
+.pic5 {
+    grid-area: pic5;
+}
+
+.pic6 {
+    grid-area: pic6;
+}
+
+.textpic1 {
+    grid-area: textpic1;
+}
+
+.textpic2 {
+    grid-area: textpic2;
+}
+
+.textpic3 {
+    grid-area: textpic3;
+}
+
+.textpic4 {
+    grid-area: textpic4;
+}
+
+.textpic5 {
+    grid-area: textpic5;
+}
+
+.textpic6 {
+    grid-area: textpic6;
+}
+
+
+
+.menu {
+
+    background-color: pink;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.menuTodos {
+    -ms-flex-align: center;
+}
+.galeRia {
+    color: palevioletred;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+
+}
+.foto1 {
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+    text-align: center;
+
+
+
+
+}
+.bel {
+    font-size: 1rem;
+    font-family: cursive;
+
+    text-align: center;
+    justify-content: right;
+    margin: 30px;
+    padding: 30px;
+    color: rgb(216, 58, 111);
+    font-size: larger;
+}
+
+.form1 {
+    display: flexbox;
+    flex-direction: column;
+    margin: 15px 0px 0px 0px;
+
+
+
+}
+.pie {
+    grid-area: pie;
+}
+.redesFoot {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+.footer {
+    /* margin: 15px;
+    padding: 15px; */
+    text-align: center;
+    opacity: 0.8;
+    margin-top: auto;
+    width: 100%;
+    height: 60px;
+    /* Height of the footer */
+    background: rgb(118, 198, 214);
+
+
+}
+
+.dereChos {
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dereChoss {
+    display: flex;
+    justify-content: center;
+}

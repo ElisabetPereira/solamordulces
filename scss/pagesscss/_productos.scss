@@ -1,0 +1,82 @@
+.imaGenfondo {
+    min-height: 100px;
+    min-width: 300px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.8;
+}
+.conteneCuatro {
+    /* margin: 30px;
+    padding: auto; */
+    display: grid;
+    grid-template-areas:
+        "navegacion navegacion navegacion"
+        "tituProd tituProd tituProd"
+        "cardiB . cardiOne "
+        "cardiTwo . cardiThree "
+        "cardiFour . cardiFive"
+        "pie pie pie";
+
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: auto;
+
+}
+
+.tituProd {
+    grid-template-areas: tituProd;
+}
+
+.cardiB {
+    grid-template-areas: cardiB;
+}
+
+.cardiOne {
+    grid-template-areas: cardiOne;
+}
+
+.cardiTwo {
+    grid-template-areas: cardiTwo;
+}
+
+.cardiThree {
+    grid-template-areas: cardiThree;
+}
+
+.cardiFour {
+    grid-template-areas: cardiFour;
+}
+
+.cardiFive {
+    grid-template-areas: cardiFive;
+}
+
+.navegacion {
+    grid-area: navegacion;
+}
+.pie {
+    grid-area: pie;
+}
+.menu {
+
+    background-color: pink;
+    margin: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+.galeRia {
+    color: palevioletred;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+
+
