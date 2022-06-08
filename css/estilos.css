@@ -6,8 +6,7 @@
 }
 
 body {
-    /* background: rgb(255,155,199);
-    background: linear-gradient(225deg, rgba(255,155,199,1) 35%, rgba(0,250,255,1) 100%); */
+ 
 
     background: rgb(255, 155, 199);
     background: linear-gradient(225deg, rgba(255, 155, 199, 1) 10%, rgba(191, 190, 214, 1) 51%, rgba(121, 228, 230, 1) 100%);
@@ -138,9 +137,6 @@ nav ul li a {
 
 }
 
-/*font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-} */
 
 .galeRia {
     color: palevioletred;

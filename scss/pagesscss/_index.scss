@@ -15,7 +15,7 @@ $color-fondo:pink;
         margin: 5px;
         text-decoration: none;
         &:hover{
-            background-color: papayawhip;
+            background-color: pink;
             ul{
                 display: block;
             }
@@ -32,11 +32,13 @@ $color-fondo:pink;
 }
 
 
+
 .menu ul li:hover>ul {
     display: block;
 }
 
 .contenedor {
+
     display: grid;
     grid-template-areas: "navegacion navegacion navegacion"
         "titu titu titu"
@@ -47,6 +49,10 @@ $color-fondo:pink;
 
     grid-template-columns: 30% 40% 30%;
     grid-template-rows: 6fr;
+
+}
+.navegacion{
+    
 
 }
 .imaGenfondo {
@@ -77,6 +83,12 @@ $color-fondo:pink;
     opacity: 1;
 
 }
+
+ 
+    
+
+
+
 .logoAnimac {
     animation: heartBeat;
     animation-duration: 1s;
@@ -84,6 +96,7 @@ $color-fondo:pink;
 }
 .navegacion {
     grid-area: navegacion;
+
 }
 
 
@@ -153,5 +166,7 @@ $color-fondo:pink;
     padding: 0px 0px 20px 0px;
 }
 .cadrBack {
-    background-color: transparent;
+    background-color:  rgb(253, 204, 212);
+   
+    
 }

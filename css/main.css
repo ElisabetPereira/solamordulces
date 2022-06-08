@@ -3,20 +3,14 @@
   flex-direction: column;
   margin: 15px 0px 0px 0px; }
 
-.footer {
-  /* margin: 15px;
-    padding: 15px; */
-  text-align: center;
-  opacity: 0.8;
-  margin-top: auto;
-  width: 100%;
-  height: 60px;
-  /* Height of the footer */
-  background: #76c6d6; }
-
-.dereChoss {
+.dereChoss, .dereChos {
   display: flex;
   justify-content: center; }
+
+.dereChos {
+  font-size: 10px;
+  text-align: center;
+  align-items: center; }
 
 .redesFoot {
   display: flex;
@@ -68,19 +62,11 @@ nav ul li a {
   justify-content: center; }
 
 .fa-instagram-square:hover {
-  /* color: rgba(215, 24, 174, 0.634); */
   color: #fff; }
 
 body {
-  /* background: rgb(255,155,199);
-    background: linear-gradient(225deg, rgba(255,155,199,1) 35%, rgba(0,250,255,1) 100%); */
   background: #ff9bc7;
   background: linear-gradient(225deg, #ff9bc7 10%, #bfbed6 51%, #79e4e6 100%); }
-
-header h1 {
-  text-align: center;
-  color: palevioletred;
-  font-size: 43px; }
 
 header h1 {
   text-align: center;
@@ -91,10 +77,7 @@ p {
   font-size: 1rem;
   font-family: cursive;
   color: #df88b1;
-  text-align: center;
-  /* justify-content: right;
-   margin: 30px;
-   padding: 30px; */ }
+  text-align: center; }
 
 h3 {
   font-size: 2rem;
@@ -102,6 +85,20 @@ h3 {
   color: #f0eacd;
   text-align: center;
   flex-direction: row; }
+
+.btn--enviar {
+  background-color: #229954; }
+
+.btn--limpiar {
+  background-color: #1F618D; }
+
+.footer {
+  text-align: center;
+  opacity: 0.8;
+  margin-top: auto;
+  width: 100%;
+  height: 60px;
+  background: #76c6d6; }
 
 .imaGenfondo {
   min-height: 100px;
@@ -211,14 +208,11 @@ h3 {
   font-size: 50px; }
 
 .footer {
-  /* margin: 15px;
-    padding: 15px; */
   text-align: center;
   opacity: 0.8;
   margin-top: auto;
   width: 100%;
   height: 60px;
-  /* Height of the footer */
   background: #76c6d6; }
 
 .dereChos {
@@ -228,7 +222,7 @@ h3 {
   align-items: center;
   justify-content: center; }
 
-.dereChoss {
+.dereChoss, .dereChos {
   display: flex;
   justify-content: center; }
 
@@ -356,7 +350,7 @@ h3 {
     margin: 5px;
     text-decoration: none; }
     .menu ul li:hover {
-      background-color: papayawhip; }
+      background-color: pink; }
       .menu ul li:hover ul {
         display: block; }
   .menu ul ul {
@@ -463,4 +457,4 @@ h3 {
   padding: 0px 0px 20px 0px; }
 
 .cadrBack {
-  background-color: transparent; }
+  background-color: #fdccd4; }

@@ -4,22 +4,20 @@
     margin: 15px 0px 0px 0px;
 
 }
-.footer {
-    /* margin: 15px;
-    padding: 15px; */
-    text-align: center;
-    opacity: 0.8;
-    margin-top: auto;
-    width: 100%;
-    height: 60px;
-    /* Height of the footer */
-    background: rgb(118, 198, 214);
 
-}
 .dereChoss {
     display: flex;
     justify-content: center;
 }
+.dereChos {
+    @extend .dereChoss;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    // justify-content: center;
+    // display: flex;
+}
+
 .redesFoot {
     display: flex;
     align-items: center;
@@ -79,12 +77,11 @@ nav ul li a {
 
 }
 .fa-instagram-square:hover {
-    /* color: rgba(215, 24, 174, 0.634); */
+ 
     color: #fff;
 }
 body {
-    /* background: rgb(255,155,199);
-    background: linear-gradient(225deg, rgba(255,155,199,1) 35%, rgba(0,250,255,1) 100%); */
+   
 
     background: rgb(255, 155, 199);
     background: linear-gradient(225deg, rgba(255, 155, 199, 1) 10%, rgba(191, 190, 214, 1) 51%, rgba(121, 228, 230, 1) 100%);
@@ -96,20 +93,13 @@ header h1 {
     font-size: 43px;
 
 }
-header h1 {
-    text-align: center;
-    color: palevioletred;
-    font-size: 43px;
 
-}
 p {
     font-size: 1rem;
     font-family: cursive;
     color: rgb(223, 136, 177);
     text-align: center;
-    /* justify-content: right;
-   margin: 30px;
-   padding: 30px; */
+ 
 }
 h3 {
     font-size: 2rem;
@@ -117,4 +107,31 @@ h3 {
     color: rgb(240, 234, 205);
     text-align: center;
     flex-direction: row;
+}
+$botones:(
+    enviar: #229954,
+    limpiar: #1F618D
+);
+@each $bt, $color in $botones {
+    .btn--#{$bt}{
+        background-color: $color;
+    }
+    
+}
+
+@mixin formatter($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+.footer {
+  
+    text-align: center;
+    opacity: 0.8;
+    margin-top: auto;
+    @include formatter(100%, 60px);
+    // width: 100%;
+    // height: 60px;
+   
+    background: rgb(118, 198, 214);
+
 }
