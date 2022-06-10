@@ -3,114 +3,14 @@
   flex-direction: column;
   margin: 15px 0px 0px 0px; }
 
-.dereChoss, .dereChos {
-  display: flex;
-  justify-content: center; }
-
-.dereChos {
-  font-size: 10px;
-  text-align: center;
-  align-items: center; }
-
-.redesFoot {
-  display: flex;
-  align-items: center;
-  font-size: 50px; }
-
 .posit {
   position: relative; }
 
-.dereChos1 {
-  font-size: 10px;
-  text-align: center;
-  display: flex;
-  align-items: center; }
-
-.menu {
-  background-color: pink;
-  margin: 10px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center; }
-
-.menu ul li {
-  list-style-type: none;
-  display: inline-block;
-  color: antiquewhite;
-  font-size: 20px;
-  margin: 5px;
-  text-decoration: none; }
-
-.menu ul li :hover {
-  background-color: papayawhip; }
-
-.menu ul ul {
-  display: none;
-  position: absolute; }
-
-.menu ul li:hover > ul {
-  display: block; }
-
-nav ul li a {
-  text-decoration: none;
-  font-family: "Dancing Script",cursive;
-  color: #b136b1; }
-
-.redesFoot a i {
-  padding: 5px;
-  color: #FF6FB5;
-  justify-content: center; }
-
-.fa-instagram-square:hover {
-  color: #fff; }
-
-body {
-  background: #ff9bc7;
-  background: linear-gradient(225deg, #ff9bc7 10%, #bfbed6 51%, #79e4e6 100%); }
-
-header h1 {
-  text-align: center;
-  color: palevioletred;
-  font-size: 43px; }
-
-p {
-  font-size: 1rem;
-  font-family: cursive;
-  color: #df88b1;
-  text-align: center; }
-
-h3 {
-  font-size: 2rem;
-  font-family: cursive;
-  color: #f0eacd;
-  text-align: center;
-  flex-direction: row; }
-
 .btn--enviar {
-  background-color: #229954; }
+  background-color: #e66b80; }
 
 .btn--limpiar {
-  background-color: #1F618D; }
-
-.footer {
-  text-align: center;
-  opacity: 0.8;
-  margin-top: auto;
-  width: 100%;
-  height: 60px;
-  background: #76c6d6; }
-
-.imaGenfondo {
-  min-height: 100px;
-  min-width: 300px;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  opacity: 0.8; }
+  background-color: #74e4ee; }
 
 .conteneDos {
   display: grid;
@@ -160,13 +60,6 @@ h3 {
 .textpic6 {
   grid-area: textpic6; }
 
-.menu {
-  background-color: pink;
-  margin: 10px;
-  text-decoration: none;
-  display: flex;
-  justify-content: center; }
-
 .menuTodos {
   -ms-flex-align: center; }
 
@@ -179,8 +72,8 @@ h3 {
 .foto1 {
   padding: 15px;
   margin: 15px;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-color: antiquewhite;
   text-align: center; }
 
@@ -199,48 +92,7 @@ h3 {
   flex-direction: column;
   margin: 15px 0px 0px 0px; }
 
-.pie {
-  grid-area: pie; }
-
-.redesFoot {
-  display: flex;
-  align-items: center;
-  font-size: 50px; }
-
-.footer {
-  text-align: center;
-  opacity: 0.8;
-  margin-top: auto;
-  width: 100%;
-  height: 60px;
-  background: #76c6d6; }
-
-.dereChos {
-  font-size: 10px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.dereChoss, .dereChos {
-  display: flex;
-  justify-content: center; }
-
-.imaGenfondo {
-  min-height: 100px;
-  min-width: 300px;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  opacity: 0.8; }
-
 .conteneCuatro {
-  /* margin: 30px;
-    padding: auto; */
   display: grid;
   grid-template-areas: "navegacion navegacion navegacion" "tituProd tituProd tituProd" "cardiB . cardiOne " "cardiTwo . cardiThree " "cardiFour . cardiFive" "pie pie pie";
   grid-template-columns: 30% 40% 30%;
@@ -286,17 +138,35 @@ h3 {
   font-size: 35px;
   font-style: italic; }
 
-.imaGenfondo {
-  min-height: 100px;
-  min-width: 300px;
-  z-index: -1;
+.products-container {
   width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  opacity: 0.8; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 300px) and (max-width: 900px) {
+    .products-container {
+      flex-direction: column; } }
+  .products-container .product {
+    width: 33%;
+    height: 300px; }
+    @media (min-width: 300px) and (max-width: 900px) {
+      .products-container .product {
+        width: 100%;
+        padding: 20px; } }
+    .products-container .product .product-image {
+      display: block;
+      width: 100%;
+      padding: 10px; }
+    .products-container .product .body {
+      display: block;
+      padding: 10px; }
+
+.navegacion {
+  grid-area: navegacion; }
+
+.pie {
+  grid-area: pie; }
 
 .menu {
   background-color: pink;
@@ -304,6 +174,12 @@ h3 {
   text-decoration: none;
   display: flex;
   justify-content: center; }
+
+.galeRia {
+  color: palevioletred;
+  text-align: center;
+  font-size: 35px;
+  font-style: italic; }
 
 .galeRia {
   color: palevioletred;
@@ -366,18 +242,6 @@ h3 {
   grid-template-columns: 30% 40% 30%;
   grid-template-rows: 6fr; }
 
-.imaGenfondo {
-  min-height: 100px;
-  min-width: 300px;
-  z-index: -1;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  opacity: 0.8; }
-
 .menuTodos {
   -ms-flex-align: center; }
 
@@ -394,6 +258,10 @@ h3 {
   animation: heartBeat;
   animation-duration: 1s;
   animation-iteration-count: initial; }
+
+.logoNavbar {
+  box-sizing: border-box;
+  margin: 10px; }
 
 .navegacion {
   grid-area: navegacion; }
@@ -458,3 +326,139 @@ h3 {
 
 .cadrBack {
   background-color: #fdccd4; }
+
+@media (max-width: 75em) {
+  body {
+    font-size: 16px; }
+  .contenedor {
+    grid-template-areas: "navegacion navegacion navegacion" "titu titu titu" "logo logo logo" ". car ." "cardi  . card1 " ". card2 ." "pie pie pie"; }
+  .conteneDos {
+    grid-template-areas: "navegacion navegacion navegacion" "titu titu titu" "pic1 . textpic1" "textpic2 . pic2" "pic3 . textpic3" "textpic4 . pic4" "pic5 . textpic5" "textpic6 . pic6" "pie pie pie"; } }
+
+@media (max-width: 30em) {
+  body {
+    font-size: 16rem; }
+  .contenedor {
+    grid-template-areas: "navegacion navegacion navegacion" "titu titu titu" "logo logo logo" "car car car" "cardi  cardi cardi" "card1 card1 card1" "card2 card2 card2" "pie pie pie"; }
+  .conteneDos {
+    grid-template-areas: "navegacion navegacion navegacion" "titu titu titu" "pic1 pic1 pic1" "textpic1 textpic1 textpic1" "pic2 pic2 pic2" "textpic2 textpic2 textpic2" "pic3 pic3 pic3" "textpic3 textpic3 textpic3" "pic4 pic4 pic4" "textpic4 textpic4 textpic4" "pic5 pic5 pic5" "textpic5 textpic5 textpic5" "pic6 pic6 pic6" "textpic6 textpic6 textpic6" "pie pie pie";
+    grid-template-rows: auto; }
+  aside {
+    font-size: 8px; } }
+
+.imaGenfondo {
+  min-height: 100px;
+  min-width: 300px;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.8; }
+
+.menu {
+  background-color: pink;
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; }
+
+.dereChoss, .dereChos {
+  display: flex;
+  justify-content: center; }
+
+.dereChos {
+  font-size: 10px;
+  text-align: center;
+  align-items: center; }
+
+.redesFoot {
+  display: flex;
+  align-items: center;
+  font-size: 50px; }
+
+body {
+  background: #ff9bc7;
+  background: linear-gradient(225deg, #ff9bc7 10%, #bfbed6 51%, #79e4e6 100%); }
+
+.footer {
+  text-align: center;
+  opacity: 0.8;
+  margin-top: auto;
+  width: 100%;
+  height: 60px;
+  background: #76c6d6; }
+
+.dereChos1 {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+
+.menu {
+  background-color: pink;
+  margin: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center; }
+
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  color: antiquewhite;
+  font-size: 20px;
+  margin: 5px;
+  text-decoration: none; }
+
+.menu ul li :hover {
+  background-color: papayawhip; }
+
+.menu ul ul {
+  display: none;
+  position: absolute; }
+
+.menu ul li:hover > ul {
+  display: block; }
+
+nav ul li a {
+  text-decoration: none;
+  font-family: "Dancing Script",cursive;
+  color: #b136b1; }
+
+.redesFoot a i {
+  padding: 5px;
+  color: #FF6FB5;
+  justify-content: center; }
+
+.fa-instagram-square:hover {
+  color: #fff; }
+
+header h1 {
+  text-align: center;
+  color: palevioletred;
+  font-size: 43px; }
+
+p {
+  font-size: 1rem;
+  font-family: cursive;
+  color: #df88b1;
+  text-align: center; }
+
+h3 {
+  font-size: 2rem;
+  font-family: cursive;
+  color: #f0eacd;
+  text-align: center;
+  flex-direction: row; }
+
+.pie {
+  grid-area: pie; }
+
+.dereChos {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }

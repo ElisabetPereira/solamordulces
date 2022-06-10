@@ -5,112 +5,15 @@
 
 }
 
-.dereChoss {
-    display: flex;
-    justify-content: center;
-}
-.dereChos {
-    @extend .dereChoss;
-    font-size: 10px;
-    text-align: center;
-    align-items: center;
-    // justify-content: center;
-    // display: flex;
-}
 
-.redesFoot {
-    display: flex;
-    align-items: center;
-    font-size: 50px;
-}
 .posit{
     position: relative;
 }
-.dereChos1 {
-    font-size: 10px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-.menu {
 
-    background-color: pink;
-    margin: 10px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
 
-}
-
-.menu ul li {
-    list-style-type: none;
-    display: inline-block;
-    color: antiquewhite;
-    font-size: 20px;
-    margin: 5px;
-    text-decoration: none;
-}
-
-.menu ul li :hover {
-    background-color: papayawhip;
-}
-
-.menu ul ul {
-
-    display: none;
-    position: absolute;
-}
-
-.menu ul li:hover>ul {
-    display: block;
-}
-nav ul li a {
-
-    text-decoration: none;
-    font-family: "Dancing Script",cursive;
-    color: rgb(177, 54, 177);
-}
-.redesFoot a i {
-    padding: 5px;
-    color: #FF6FB5;
-    justify-content: center;
-
-}
-.fa-instagram-square:hover {
- 
-    color: #fff;
-}
-body {
-   
-
-    background: rgb(255, 155, 199);
-    background: linear-gradient(225deg, rgba(255, 155, 199, 1) 10%, rgba(191, 190, 214, 1) 51%, rgba(121, 228, 230, 1) 100%);
-}
-
-header h1 {
-    text-align: center;
-    color: palevioletred;
-    font-size: 43px;
-
-}
-
-p {
-    font-size: 1rem;
-    font-family: cursive;
-    color: rgb(223, 136, 177);
-    text-align: center;
- 
-}
-h3 {
-    font-size: 2rem;
-    font-family: cursive;
-    color: rgb(240, 234, 205);
-    text-align: center;
-    flex-direction: row;
-}
 $botones:(
-    enviar: #229954,
-    limpiar: #1F618D
+    enviar: rgb(230, 107, 128),
+    limpiar: #74e4ee
 );
 @each $bt, $color in $botones {
     .btn--#{$bt}{
@@ -122,16 +25,4 @@ $botones:(
 @mixin formatter($ancho, $alto) {
     width: $ancho;
     height: $alto;
-}
-.footer {
-  
-    text-align: center;
-    opacity: 0.8;
-    margin-top: auto;
-    @include formatter(100%, 60px);
-    // width: 100%;
-    // height: 60px;
-   
-    background: rgb(118, 198, 214);
-
 }

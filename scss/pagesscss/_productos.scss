@@ -1,20 +1,8 @@
-.imaGenfondo {
-    min-height: 100px;
-    min-width: 300px;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    opacity: 0.8;
-}
+
 .conteneCuatro {
-    /* margin: 30px;
-    padding: auto; */
+   
     display: grid;
-    grid-template-areas:
+    grid-template-areas: 
         "navegacion navegacion navegacion"
         "tituProd tituProd tituProd"
         "cardiB . cardiOne "

@@ -51,22 +51,8 @@ $color-fondo:pink;
     grid-template-rows: 6fr;
 
 }
-.navegacion{
-    
 
-}
-.imaGenfondo {
-    min-height: 100px;
-    min-width: 300px;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    opacity: 0.8;
-}
+
 .menuTodos {
     -ms-flex-align: center;
 }
@@ -94,9 +80,14 @@ $color-fondo:pink;
     animation-duration: 1s;
     animation-iteration-count: initial;
 }
+.logoNavbar{
+    box-sizing: border-box;
+    margin: 10px;
+
+}
 .navegacion {
     grid-area: navegacion;
-
+    
 }
 
 
@@ -169,4 +160,73 @@ $color-fondo:pink;
     background-color:  rgb(253, 204, 212);
    
     
+}
+
+
+@media (max-width:75em) {
+    body {
+        font-size:16px;
+    }
+
+    .contenedor {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "logo logo logo"
+            ". car ."
+            "cardi  . card1 "
+            ". card2 ."
+            "pie pie pie";
+    }
+
+    .conteneDos {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "pic1 . textpic1"
+            "textpic2 . pic2"
+            "pic3 . textpic3"
+            "textpic4 . pic4"
+            "pic5 . textpic5"
+            "textpic6 . pic6"
+            "pie pie pie";
+    }
+}
+
+@media (max-width:30em) {
+    body{
+        font-size:16rem ;
+    }
+    .contenedor {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "logo logo logo"
+            "car car car"
+            "cardi  cardi cardi"
+            "card1 card1 card1"
+            "card2 card2 card2"
+            "pie pie pie";
+    }
+
+    .conteneDos {
+        grid-template-areas: "navegacion navegacion navegacion"
+            "titu titu titu"
+            "pic1 pic1 pic1"
+            "textpic1 textpic1 textpic1"
+            "pic2 pic2 pic2"
+            "textpic2 textpic2 textpic2"
+            "pic3 pic3 pic3"
+            "textpic3 textpic3 textpic3"
+            "pic4 pic4 pic4"
+            "textpic4 textpic4 textpic4"
+            "pic5 pic5 pic5"
+            "textpic5 textpic5 textpic5"
+            "pic6 pic6 pic6"
+            "textpic6 textpic6 textpic6"
+            "pie pie pie";
+            grid-template-rows: auto;
+    }
+
+    aside {
+        font-size: 8px;
+    }
+
 }
