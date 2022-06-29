@@ -10,6 +10,12 @@
     position: relative;
 }
 
+.divModelForm {
+    padding: 10px 10px 10px 0px;
+}
+.divModelFormBtn {
+    padding: 0px 0px 10px 0px;
+}
 
 $botones:(
     enviar: rgb(230, 107, 128),
@@ -25,4 +31,16 @@ $botones:(
 @mixin formatter($ancho, $alto) {
     width: $ancho;
     height: $alto;
+}
+.field1 {
+    @include formatter (400px, auto);
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.flexTitu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

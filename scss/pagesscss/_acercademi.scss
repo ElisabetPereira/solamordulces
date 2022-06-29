@@ -1,6 +1,6 @@
 
 .galeRia {
-    color: palevioletred;
+    color: rgb(74, 41, 41);
     text-align: center;
     font-size: 35px;
     font-style: italic;
@@ -13,7 +13,7 @@
     justify-content: left;
 }
 .colorPink {
-    color: rgb(216, 58, 111);
+    color: rgb(61, 32, 32);
     font-size: larger;
     flex-wrap: wrap;
     justify-content: left;
@@ -35,4 +35,35 @@
 
 
 
+}
+.textoDeMi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marginTexto{
+    margin-right: 60px;
+}
+.marginFoto{
+    margin-bottom: 60px;
+}
+.containerDeMi{
+    display: grid;
+    grid-template-areas: "navegacion navegacion navegacion navegacion"
+                        "tituDeMi tituDeMi tituDeMi tituDeMi"
+                        "fotoDeMi fotoDeMi textoDeMi textoDeMi"
+                        
+                        "pie pie pie pie";
+
+                        grid-template-columns: 25% 25% 25% 25%;
+                        grid-template-rows: 4fr;
+}
+.tituDeMi{
+    grid-area: tituDeMi;
+}
+.textoDeMi{
+    grid-area: textoDeMi;
+}
+.fotoDeMi{
+    grid-area: fotoDeMi;
 }

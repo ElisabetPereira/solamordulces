@@ -1,41 +1,5 @@
-$color-fondo:pink;
-.menu {
+$color-fondo: pink;
 
-    background-color: $color-fondo;
-    margin: 10px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    ul{
-        li{
-            list-style-type: none;
-        display: inline-block;
-        color: antiquewhite;
-        font-size: 20px;
-        margin: 5px;
-        text-decoration: none;
-        &:hover{
-            background-color: pink;
-            ul{
-                display: block;
-            }
-        }
-
-        }
-        ul{
-            display: none;
-            position: absolute;
-
-        }
-    }
-
-}
-
-
-
-.menu ul li:hover>ul {
-    display: block;
-}
 
 .contenedor {
 
@@ -70,8 +34,8 @@ $color-fondo:pink;
 
 }
 
- 
-    
+
+
 
 
 
@@ -80,14 +44,16 @@ $color-fondo:pink;
     animation-duration: 1s;
     animation-iteration-count: initial;
 }
-.logoNavbar{
+
+.logoNavbar {
     box-sizing: border-box;
     margin: 10px;
 
 }
+
 .navegacion {
     grid-area: navegacion;
-    
+
 }
 
 
@@ -118,15 +84,18 @@ $color-fondo:pink;
 .pie {
     grid-area: pie;
 }
+
 .torTas {
-    color: palevioletred;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 60px;
     text-decoration: none;
 }
+
 .cakeD {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+
 .galeFot {
     display: flex;
     flex-direction: row;
@@ -135,6 +104,7 @@ $color-fondo:pink;
     flex-wrap: wrap;
     justify-content: left;
 }
+
 .botonUno {
     padding: 15px;
     margin: 15px;
@@ -144,37 +114,45 @@ $color-fondo:pink;
     text-align: center;
 
 }
+
 .cardBack1 {
     margin: 0px 0px 0px 20px;
     padding: 0px 0px 0px 20px;
 }
+
 .cardFlex {
     display: flex;
     justify-content: center;
 }
+
 .carPad {
     margin: 0px 0px 20px 0px;
     padding: 0px 0px 20px 0px;
 }
+
 .cadrBack {
-    background-color:  rgb(253, 204, 212);
-   
-    
+    background-color: rgb(253, 204, 212);
 }
 
 
 @media (max-width:75em) {
     body {
-        font-size:16px;
+        font-size: 16px;
     }
-
+    h1{
+        font-size: 12px;
+    }
+    .footer__wallstreet{
+        font-size: 1rem;
+    }
     .contenedor {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
             "logo logo logo"
             ". car ."
-            "cardi  . card1 "
-            ". card2 ."
+            "cardi cardi cardi"
+            "card1 card1 card1"
+            "card2 card2 card2"
             "pie pie pie";
     }
 
@@ -192,9 +170,13 @@ $color-fondo:pink;
 }
 
 @media (max-width:30em) {
-    body{
-        font-size:16rem ;
+    body {
+        font-size: 16rem;
     }
+    .footer__wallstreet{
+        font-size: 0.7rem;
+    }
+
     .contenedor {
         grid-template-areas: "navegacion navegacion navegacion"
             "titu titu titu"
@@ -222,11 +204,14 @@ $color-fondo:pink;
             "pic6 pic6 pic6"
             "textpic6 textpic6 textpic6"
             "pie pie pie";
-            grid-template-rows: auto;
+        grid-template-rows: auto;
     }
 
     aside {
         font-size: 8px;
+    }
+    h1{
+        font-size: 10px;
     }
 
 }

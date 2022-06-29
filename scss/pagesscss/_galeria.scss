@@ -84,8 +84,8 @@
 .foto1 {
     padding: 15px;
     margin:15px;
-    width: 300px;
-    height:300px;
+    width: 70%;
+    height:100%;
     background-color: antiquewhite;
     text-align: center;
 
@@ -115,7 +115,46 @@
 }
 
 
+.texto__galeria,
+.torta__galeria {
+    text-align: justify;
+    padding: 4rem;
+}
 
+.galeria__img1,
+.galeria__img {
+    padding: 0;
+    margin: 0;
+}
+
+.h2__galeria,
+.h2__historia {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+
+.rappi {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: fixed;
+    top: 7rem;
+    right: 0.5rem;
+}
+
+.flecha {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: fixed;
+    top: 12rem;
+    right: 0.5rem;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.bg-gal{
+    background-color: #6e2f24;
+}
 
 
 

@@ -6,128 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <!-- <link rel="stylesheet" href="../css/estilos.css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
     <img src="../img/MARCA ANITA.png" alt="" class="imaGenfondo" media="(min-width: 1000px)">
-
-    <main class="conteneDos">
-        <header class="navegacion">
-
-            <nav class="menu menuTodos navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="../index.html">
-                        <img src="../img/MARCA ANITA.png " alt="" width="50" height="50">
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="../index.html" class="navar-brand">Home
-                            </a>
+    <div>
+        <nav class="navbar navbar-expand-lg  col-12">
+            <div class="container-fluid">
+                <a class="navbar-brand header__sol" href="../index.html">
+                    <img class="sol__logo" src="../img/MARCA ANITA.png" alt="logo" width="30" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-end bg-#8fb339">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
-                        <li>
-                            <a href="productos2.html">Productos</a>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
                         </li>
-                        <li>
-                            <a href="acercademi.html">Acerca de mi</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galería</a>
                         </li>
-                        <li>
-                            <a href="galeria.html">Galeria</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acercademi.html">Acerca de mi</a>
                         </li>
-                        <li>
-                            <a href="contacto.html">Contacto</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
-            </nav>        </header>
-        
-        <div class="titu">
-            <h1 class="galeRia"> Hecho con amor</h1>
-        </div>
-
-        <div class="pic1">
-            <img class="foto1" src="../img/torta 1.jpeg" alt="">
-        </div>
-        <aside class="textpic1">
-            <p class="bel descripText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iste, qui aut ipsa expedita
-                voluptatum! Pariatur esse ad soluta sed adipisci sapiente repellat quam consequatur quo est.
-                Facilis, quibusdam asperiores.</p>
-        </aside>
-
-        <div class="pic2">
-            <img class="foto1" src="../img/torta2.jpeg" alt="">
-        </div>
-        <aside class="textpic2">
-            <p class="bel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum iste, qui aut ipsa expedita
-                voluptatum! Pariatur esse ad soluta sed adipisci sapiente repellat quam consequatur quo est.
-                Facilis, quibusdam asperiores.</p>
-        </aside>
-
-        <div class="pic3">
-            <img class="foto1" src="../img/torta3.jpeg" alt="">
-        </div>
-        <aside class="textpic3">
-            <p class="bel">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est delectus quos eos ducimus
-                molestiae voluptate voluptatum nesciunt adipisci excepturi, dicta quidem consequuntur et vel
-                nihil commodi modi totam amet. </p>
-        </aside>
-
-        <div class="pic4">
-            <img class="foto1" src="../img/WhatsApp Image 2022-04-15 at 12.41.24 PM (3).jpeg" alt="">
-        </div>
-        <aside class="textpic4">
-            <p class="bel"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ea vitae officiis, quidem
-                dignissimos rem omnis sequi in nesciunt, amet accusantium tenetur animi dicta non praesentium
-                dolorem accusamus quo odit.</p>
-        </aside>
-
-        <div class="pic5">
-            <img class="foto1" src="../img/WhatsApp Image 2022-04-15 at 12.41.24 PM (3).jpeg" alt="">
-        </div>
-        <aside class="textpic5">
-            <p class="bel"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, quos quae quis sunt a, earum
-                laudantium corporis eligendi nobis ullam, eius deserunt hic ratione nesciunt totam illum
-                incidunt placeat. Porro.</p>
-        </aside>
-
-        <div class="pic6">
-            <img class="foto1" src="../img/WhatsApp Image 2022-04-27 at 4.56.21 PM.jpeg" alt="">
-        </div>
-        <aside class="textpic6">
-            <p class="bel"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eaque vitae ipsam libero laudantium
-                perferendis dolorum magnam, amet cumque placeat labore praesentium pariatur ducimus ad debitis
-                id fugit in illum?</p>
-        </aside>
+            </div>
+        </nav>
+        <h1 class="h1__titulo" id="nav"><p class="h1__titulotexto">Galería</p></h1>
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 text-white torta__galeria bg-gal">
+                    <h2 class="h2__galeria">Torta de Frutillas y Crema</h2>
+                    <p>
+                        Suave torta de 3 capas finamente decorada con crema y frutillas. De un sabor único y cítrico ya que la masa está mojada en distintos sabores frutales. La crema está preparada con una receta especial creada por mi Bisabuela -Jacinta- que fue pasando de generación en generación.
+                    </p>
+                </div>
+                <img class="col-12 col-md-6 galeria__img" src="../img/rsz_tortagal.jpg" alt="Torta Frutillas">
+            </div>
+            <div class="row">
+                <img class="col-12 col-md-6 galeria__img1" src="../img/rsz_hbcake.jpg" alt="Torta de budin burgues">
+                <div class="col-12 col-md-6 text-white texto__galeria bg-gal">
+                    <h2 class="h2__historia">Torta de chocolate y Frutillas</h2>
+                    <p>Ésta torta está inspirada en la decoración utilizada en los años 50 por los pasteleros de la época.</p> <br>
+                    <p>Consta de 3 pisos, un relleno de dulce de leche, crema y frutillas. La masa es del estilo budin burgues muy suave y delicioso</p>
+                    <br>
+                    <p>Se pueden realizar decoraciones personalizadas de cualquier tipo y es una de nuestras tortas mas pedidas!.</p> 
+                    <br>
+                    <p>Esperamos tu pedido!</p>
+                </div>
+            </div>
+        </main>
+        <footer class="footer__segundaparte">
+            <div class="segundaparte__logo">
+                <a href="index.html"><img class="footer__logo" src="../img/logo.png" alt="logo"></a>
+                <a href="index.html" class="mx-auto text-center footer__wallstreet">Sol Amor Dulces</a>
+            </div>
+            <div class="segundaparte__medio">
+                <div class="segundaparte__navbar">
+                    <a class="segundaparte__navitems mb-1 me-2" href="galeria.html">Galería</a>
+                    <a class="segundaparte__navitems mb-1 ms-2 me-2" href="productos.html">Productos</a>
+                    <a class="segundaparte__navitems ms-2 me-2 mb-1" href="acercademi.html">Aceca de mi</a>
+                    <a class="segundaparte__navitems ms-2 mb-1" href="contacto.html">Cóntacto</a>
+                </div>
+                <p class="mt-2 footerFSize">Sol Amor Dulces. Todos los derechos reservados &copy; <script>document.write(new Date().getFullYear());</script></p>
+            </div>
+            <div class="segundaparte__redes">
+                <a href="https://www.facebook.com"><img class="footer__facebook" src="../img/facebook.png"
+                    alt="facebook" target="_blank"></a>
+            <a href="https://instagram.com/sol_amordulces?igshid=YmMyMTA2M2Y="><img class="footer__instagram"
+                    src="../img/instagram.png" alt="instagram" target="_blank"></a>
+            <a href="https://web.whatsapp.com/"><img class="footer__whatsapp" src="../img/whatsapp.png"
+                    alt="whatsapp" target="_blank"></a>
+            </div>
+        </footer>
 
 
 
 
-        <!-- </main> -->
-
-        <div class="form1 pie">
-            <footer class="footer dereChoss">
-                <div class="redesFoot">
-                
-                    <a href="https://instagram.com/sol_amordulces?igshid=YmMyMTA2M2Y=" target="_blank"><i class=" fa-brands
-                    fa-instagram-square"></i></a>
-              
-               </div>     
-                    <div>
-                        <h3 class="dereChos">
-                            Todos los derechos reservdos
-                        </h3>
-                    </div>
-                    <div>
-                        <a href="https://instagram.com/sol_amordulces?igshid=YmMyMTA2M2Y=" target="_blank"></a>
-                    </div>
-
-            </footer>
-        </div>
-        <script src="https://kit.fontawesome.com/088899bd86.js" crossorigin="anonymous"></script>
-        
-    </main>
+    </div>
 
 </body>
 

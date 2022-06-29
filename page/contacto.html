@@ -8,101 +8,118 @@
     <title>Contacto</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
-    <!-- <link rel="stylesheet" href="../css/estilos.css"> -->
+
 
 </head>
 
 <body>
     <header>
-      <nav class="menu menuTodos navbar">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../img/MARCA ANITA.png " alt="" width="50" height="50">
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar container-fluid">
+            <a class="navbar-brand header__sol" href="">
+                <img class="sol__logo" src="../img/MARCA ANITA.png" alt="logo" width="40" height="34">
             </a>
-            <ul>
-                <li>
-                    <a href="../index.html" class="navar-brand">Home
-                    </a>
-                </li>
-                <li>
-                    <a href="productos2.html">Productos</a>
-
-                </li>
-                <li>
-                    <a href="acercademi.html">Acerca de mi</a>
-                </li>
-                <li>
-                    <a href="galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acercademi.html">Acerca de Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     </header>
   
-        <section>
-            <div class="conteneCinco">
-            <form class="row g-3 posit">
-                <div class="col-md-4">
-                  <label for="validationDefault01" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationDefault02" class="form-label"> Apellido</label>
-                  <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationDefaultUsername" class="form-label">E-mail</label>
-                  <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
-                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <label for="validationDefault03" class="form-label">Ciudad</label>
-                  <input type="text" class="form-control" id="validationDefault03" required>
-                </div>
-
-                <div class="col-md-6">
-                    <label for="validationDefault03" class="form-label">Asunto</label>
-                    <input type="text" class="form-control" id="validationDefault03" required>
-                  </div>
-                
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Comentario</label>
-                  </div>
-               
-              
-                <div class="col-12">
-                  <button class="btn btn--enviar" type="submit">Enviar</button >
-                </div>
-                <div class="col-12">
-                  <button class="btn btn--limpiar" type="reset">Limpiar</button >
-                </div>
-              </form>
-            </div>
-
-              
-
-
-        </section>
-   
-        <div class="form1 pie">
-            <footer class="footer dereChoss">
-                <div class="redesFoot">
-                    <a href="https://instagram.com/sol_amordulces?igshid=YmMyMTA2M2Y=" target="_blank"><i class=" fa-brands
-                    fa-instagram-square"></i></a>
-                  
-                    <div>
-                        <h3 class="dereChos1 dereChoss">
-                            Todos los derechos reservdos
-                        </h3>
-                    </div>
-            </footer>
-        </div>
+    <div class="divModel titulo row">
+      <h1 class="flexTitu">Contacto</h1>
+  </div>
+  <div class="formulario divModel row">
+      <form class="row" action="">
+          <fieldset class="field1 row">
+              <div class="row">
+                  <legend class="textoDorado">Formulario de Contacto</legend>
+              </div>
+              <div class="row form-group">
+                  <label class="textoSilverContacto" for="nombre">Nombre</label>
+                  <input class="form-control" type="text" name="nombre">
+              </div>
+              <div class="row form-group">
+                  <label class="textoSilverContacto" for="telefono">Teléfono</label>
+                  <input class="form-control" type="number" name="telefono">
+              </div>
+              <div class="row form-group">
+                  <label class="textoSilverContacto" for="email">Email</label>
+                  <input class="form-control" type="email" name="email">
+              </div>
+              <div>
+                  <label class="textoSilverContacto" for="">Cuando quieres ser contactado?</label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="m" name="maniana" id="flexCheckDefault">
+                  <label class="form-check-label textoSilverContacto1" for="flexCheckDefault">
+                      Mañana
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="t" name="tarde" id="flexCheckDefault">
+                  <label class="form-check-label textoSilverContacto1" for="flexCheckDefault">
+                      Tarde
+                  </label>
+             
+              <div class="divModelForm">
+                  <textarea class="form-control" name="mensaje" placeholder="Deje su mensaje aquí"></textarea>
+              </div>
+              <div class="divModelFormBtn">
+                  <input class="btn btn--enviar" type="submit" value="Enviar  ">
+              </div>
+              <div class="divModelFormBtn">
+                  <input class="btn btn--limpiar" type="reset" value="Limpiar">
+              </div>
+          </fieldset>
+      </form>
+  </div>
+</div>
+  
+        <footer class="footer__segundaparte">
+          <div class="segundaparte__logo">
+              <a href="index.html"><img class="footer__logo" src="../img/logo.png" alt="logo"></a>
+              <a href="index.html" class="mx-auto text-center footer__wallstreet">Sol Amor Dulces</a>
+          </div>
+          <div class="segundaparte__medio">
+              <div class="segundaparte__navbar">
+                  <a class="segundaparte__navitems mb-1 me-2" href="galeria.html">Galería</a>
+                  <a class="segundaparte__navitems mb-1 ms-2 me-2" href="productos.html">Productos</a>
+                  <a class="segundaparte__navitems ms-2 me-2 mb-1" href="acercademi.html">Aceca de mi</a>
+                  <a class="segundaparte__navitems ms-2 mb-1" href="contacto.html">Cóntacto</a>
+              </div>
+              <p class="mt-2 footerFSize">Sol Amor Dulces. Todos los derechos reservados &copy; <script>document.write(new Date().getFullYear());</script></p>
+          </div>
+          <div class="segundaparte__redes">
+            <a href="https://www.facebook.com"><img class="footer__facebook" src="../img/facebook.png"
+              alt="facebook" target="_blank"></a>
+      <a href="https://instagram.com/sol_amordulces?igshid=YmMyMTA2M2Y="><img class="footer__instagram"
+              src="../img/instagram.png" alt="instagram" target="_blank"></a>
+      <a href="https://web.whatsapp.com/"><img class="footer__whatsapp" src="../img/whatsapp.png"
+              alt="whatsapp" target="_blank"></a>
+          </div>
+      </footer>
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,70 +1,179 @@
 
-.conteneCuatro {
-   
-    display: grid;
-    grid-template-areas: 
-        "navegacion navegacion navegacion"
-        "tituProd tituProd tituProd"
-        "cardiB . cardiOne "
-        "cardiTwo . cardiThree "
-        "cardiFour . cardiFive"
-        "pie pie pie";
 
-    grid-template-columns: 30% 40% 30%;
-    grid-template-rows: auto;
 
+.sol__logo {
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
-.tituProd {
-    grid-template-areas: tituProd;
-}
-
-.cardiB {
-    grid-template-areas: cardiB;
-}
-
-.cardiOne {
-    grid-template-areas: cardiOne;
-}
-
-.cardiTwo {
-    grid-template-areas: cardiTwo;
-}
-
-.cardiThree {
-    grid-template-areas: cardiThree;
-}
-
-.cardiFour {
-    grid-template-areas: cardiFour;
-}
-
-.cardiFive {
-    grid-template-areas: cardiFive;
-}
-
-.navegacion {
-    grid-area: navegacion;
-}
-.pie {
-    grid-area: pie;
-}
-.menu {
-
-    background-color: pink;
-    margin: 10px;
-    text-decoration: none;
+.header__sol {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0.3rem;
+    background-color: cornsilk;
+}
+
+
+
+.index__container {
+    background-image: url(../img/indeximagen.jpg);
+}
+
+.index__imagen {
+    width: 100%;
+}
+
+.index__section {
+    background-image: url(../img/hand-drawn-vector-seamless-pattern-different-types-cakes-seamless-pattern-different-types-cakes-135884399.jpg);
+}
+
+.index__tortinhas {
+    background-color: #d196d6;
+    height: 5rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1.2rem;
+}
+
+.btn-red {
+    background-color: #6e2f24;
+}
+.colorProd{
+    color: #6e2f24;
+}
+.container__cards {
+    width: 25%;
+}
+
+.flex__cards {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.bg-cards {
+    background-color: #fdccd4;
+}
+
+.bg-acc {
+    background-color: #b69484;
+}
+
+.itemsAlign {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.accordion-button {
+    font-size: 1.6rem;
+}
+
+.footer__segundaparte {
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    justify-content: space-between;
+    bottom: 0;
+    
+}
+
+.segundaparte__logo {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-
+    align-items: center;
 }
-.galeRia {
-    color: palevioletred;
+
+.footer__logo {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0.2rem;
+}
+
+.footer__wallstreet {
+    font-size: 1.5rem;
+    background-color: #6e2f24;
+    color: white;
+    border-radius: 10px;
+    padding: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.segundaparte__medio {
+    margin-bottom: 1rem;
+}
+
+.segundaparte__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.segundaparte__navitems {
+    background-color: #6e2f24;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.segundaparte__redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+}
+
+.footer__whatsapp,
+.footer__facebook,
+.footer__instagram {
+    width: 2rem;
+    height: 2rem;
+}
+
+.pBody {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footerFSize {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 0;
+}
+
+.bodyProd {
+    background-color: #d196d6;
+    height: 100vh;
+}
+
+.h1__titulo {
     text-align: center;
-    font-size: 35px;
-    font-style: italic;
-
+    // background-image: url(../img/rsz_cakekitchen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 14rem;
+    font-weight: bolder;
+    vertical-align: middle;
 }
 
-
-
+.h1__titulotexto {
+    transform: translateY(8rem);
+    color: black;
+}
